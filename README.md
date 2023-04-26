@@ -10,7 +10,8 @@ Before running this application, ensure that you have Python 3.x installed on yo
 2. Scroll down to the "Python 3.10.0" section (or the latest version available at the time of installation) and click on the appropriate installer for your operating system.
 3. Run the installer and follow the on-screen instructions to complete the installation.
 
-Once Python 3.10 is installed, you can proceed with installing the required packages:
+Once Python 3.10 is installed, you can proceed with installing the required packages.
+Navigate to the root directory and run the following command to install the requirements:
 
 ```pip install -r requirements.txt```
 
