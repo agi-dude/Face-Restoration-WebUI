@@ -15,6 +15,8 @@ Navigate to the root directory and run the following command to install the requ
 
 ```pip install -r requirements.txt```
 
+After doing this, download the Models to the root directory from [here](https://drive.google.com/file/d/1gtgzJBd3whhKjtd4g5-SoS8wwN-YC0ZC/view?usp=share_link)
+
 ## How to Run
 
 To run the application, navigate to the root directory of the repository and execute the following command:
