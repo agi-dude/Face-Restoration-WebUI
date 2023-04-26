@@ -5,9 +5,16 @@ import time
 from numpy import asarray
 import os
 import glob
+import zipfile
+import sys
 
 CodeFormerLoc = "AIs\\CodeFormer"
 GFPGANLoc = "GFPGAN"
+
+
+def first_run():
+    with zipfile.ZipFile("Models.zip") as zip_ref:
+        zip_ref.extractall()
 
 
 def prepare_file(inputIMG, model):
@@ -61,6 +68,9 @@ def modelExecuterGFPGAN(input_img, Version):
     img = Image.open(GFPGANLoc + "\\results\\restored_imgs\\" + outputfilename)
 
     return asarray(img)
+
+if len(sys.argv) > 1:
+    first_run()
 
 
 demo = gr.Interface(modelExecuterCodeForemer, [gr.Image(type="filepath"), gr.Slider(0, 1)], "image")
