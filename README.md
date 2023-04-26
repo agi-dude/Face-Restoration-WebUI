@@ -19,7 +19,12 @@ After doing this, download the Models to the root directory from [here](https://
 
 ## How to Run
 
-To run the application, navigate to the root directory of the repository and execute the following command:
+To run the application, navigate to the root directory of the repository and execute the following command
+If this is your first time running the application then:
+
+```python Main.py --first-run```
+
+Otherwise:
 
 ```python Main.py```
 
