@@ -7,6 +7,7 @@ import os
 import glob
 import zipfile
 import sys
+import shutil
 
 CodeFormerLoc = "AIs\\CodeFormer"
 GFPGANLoc = "GFPGAN"
@@ -28,9 +29,9 @@ def prepare_file(inputIMG, model):
         os.remove(f)
 
     if model == "Code_Former":
-        os.replace(inputIMG, CodeFormerLoc + "\\inimgs\\" + os.path.basename(inputIMG))
+        shutil.move(inputIMG, CodeFormerLoc + "\\inimgs\\" + os.path.basename(inputIMG))
     elif model == "GFPGAN":
-        os.replace(inputIMG, GFPGANLoc + "\\inputs\\whole_imgs\\" + os.path.basename(inputIMG))
+        shutil.move(inputIMG, GFPGANLoc + "\\inputs\\whole_imgs\\" + os.path.basename(inputIMG))
 
 
 # noinspection LongLine
