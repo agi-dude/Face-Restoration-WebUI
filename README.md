@@ -42,3 +42,14 @@ The FaceRestoration WebUI is based on the GFPGAN and CodeFormer models developed
 - [Xintao Wang](https://github.com/xinntao/CodeFormer)
 
 We are grateful for their contributions to the computer vision community.
+
+## Star History
+
+<a href="https://star-history.com/#umarmnaq/Face-Restoration-WebUI&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=umarmnaq/Face-Restoration-WebUI&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=umarmnaq/Face-Restoration-WebUI&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=umarmnaq/Face-Restoration-WebUI&type=Date" />
+  </picture>
+</a>
+
